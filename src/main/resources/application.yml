@@ -1,0 +1,14 @@
+server:
+  port: 8094
+
+spring:
+  application:
+    name: CONFIG_SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amit1395/micro-Configurations.git
+          clone-on-start: true
+
